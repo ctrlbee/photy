@@ -23,7 +23,7 @@ $(document).ready(function() {
                     // Revoke ObjectURL
                     URL.revokeObjectURL(imgURL);
 
-                    alert(imgURL); 
+                   // alert(imgURL); 
                 }
                 catch (e) {
                     try {
