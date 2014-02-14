@@ -1,2 +1,40 @@
-<h1>Home#viewalbum</h1>
-<p>Find me in app/views/home/viewalbum.html.erb</p>
+<div data-role="page">
+ 
+        <div data-role="header">
+            <h1>My Title</h1>
+        </div><!-- /header -->
+ 
+        <div data-role="content">
+    
+		<h2>Album: <%=@album%> </h2>
+			<div class="ui-grid-c photo-grid">	
+			
+			</div>
+
+
+		<h2>Photy Upload</h2>
+		    
+		    <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
+		      <input type="hidden" name="key" value="demo2/${filename}">
+		      <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
+		      <input type="hidden" name="acl" value="public-read"> 
+		      <input type="hidden" name="success_action_redirect" value="http://localhost:3000/viewalbum">
+		      <input type="hidden" name="policy" value=<%=@policy%>>
+		      <input type="hidden" name="signature" value=<%=@signature%>>
+		      <input type="hidden" name="Content-Type" value="image/jpeg">
+		      <!-- Include any additional input fields here -->
+
+		      File to upload to S3: 
+		      <input name="file" type="file"> 
+		      <br> 
+		      <input type="submit" value="Upload File to S3"> 
+		    </form> 
+
+         </div><!-- /content -->
+ 
+        <div data-role="footer">
+            <h4>My Footer</h4>
+        </div><!-- /footer -->
+ 
+    </div><!-- /page -->
+

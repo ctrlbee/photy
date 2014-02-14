@@ -1,8 +1,7 @@
 Photy::Application.routes.draw do
 
-  get "home/home"
-  get "home/viewalbum"
-  get "home/newalbum"
+  match '/newalbum', to: 'home#newalbum', via: 'get' 
+  match '/viewalbum', to: 'home#viewalbum', via: 'get' 
   root :to => 'home#home'
 
 

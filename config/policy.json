@@ -1,0 +1,10 @@
+{"expiration": "2015-02-01T00:00:00Z",
+  "conditions": [
+    {"bucket": "photystorage"},
+    ["starts-with", "$key", ""],
+    {"acl": "public-read"},
+    {"success_action_redirect": "http://localhost:3000/viewalbum"},
+    ["starts-with", "$Content-Type", ""],
+    ["content-length-range", 0, 10000000]
+  ]
+}
