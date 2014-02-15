@@ -21,6 +21,8 @@ function parseResponse(response){
 	var key = $(response).find("Key"); 
 	var date = $(response).find("LastModified"); 
 	var photoArr = []; 
+	console.log(key); 
+	console.log(date); 
 	
 	//create array of objects
 	for (var i=0;i<date.length;i++){
@@ -28,9 +30,10 @@ function parseResponse(response){
 			link: key[i].innerHTML,
 			timestamp: date[i].innerHTML
 		}; 
+			console.log(obj); 
 		photoArr.push(obj); 
 	}
-
+	console.log(photoArr); 
 	//sort the array
 	photoArr.sort(function(a,b) {
 		if(a.timestamp < b.timestamp) {return -1};
