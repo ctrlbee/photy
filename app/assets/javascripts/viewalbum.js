@@ -4,6 +4,7 @@ $(document).ready(function(){
 		url:'https://s3.amazonaws.com/photystorage/',
 		method: 'GET',
 		success: function(data){  
+			console.log(data); 
 			var photos = parseResponse(data); 
 			viewAlbumsBuilder(photos); 
 			viewPhotosBuilder(photos); 
