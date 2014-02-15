@@ -27,8 +27,8 @@ function parseResponse(response){
 	//create array of objects
 	for (var i=0;i<date.length;i++){
 		var obj = {
-			link: key[i].innerHTML,
-			timestamp: date[i].innerHTML
+			link: key[i].firstChild.nodeValue, 
+			timestamp: date[i].firstChild.nodeValue
 		}; 
 			console.log(obj); 
 		photoArr.push(obj); 
