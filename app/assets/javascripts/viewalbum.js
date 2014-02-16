@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
 	//make call to S3
 	$.ajax({
 		url:'https://s3.amazonaws.com/photystorage/',
@@ -71,7 +71,7 @@ function parseResponse(response){
 		var file = value.link; 
 		var path = file.split("/"); 
 		var photoPath = path[0]; 
-		
+
 		if(pairs["key"]){
 			var keyPair = (pairs["key"]); 
 			var key = keyPair.split("/"); 
