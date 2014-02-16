@@ -5,6 +5,8 @@
         </div><!-- /header -->
  
         <div data-role="content">
+
+        <%=link_to "All Albums", "/"%>
     
 		<h2>Album: <%=@album%> </h2>
 			<div class="ui-grid-c photo-grid">	
@@ -15,7 +17,7 @@
 		<h2>Photy Upload</h2>
 		    
 		    <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
-		      <input type="hidden" name="key" value="demo2/${filename}">
+		      <input type="hidden" name="key" value="<%=@album%>/${filename}">
 		      <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
 		      <input type="hidden" name="acl" value="public-read"> 
 		      <input type="hidden" name="success_action_redirect" value="http://localhost:3000/viewalbum">

@@ -4,7 +4,6 @@ $(document).ready(function(){
 		url:'https://s3.amazonaws.com/photystorage/',
 		method: 'GET',
 		success: function(data){  
-			console.log(data); 
 			var photos = parseResponse(data); 
 			viewAlbumsBuilder(photos); 
 			viewPhotosBuilder(photos); 
@@ -21,8 +20,6 @@ function parseResponse(response){
 	var key = $(response).find("Key"); 
 	var date = $(response).find("LastModified"); 
 	var photoArr = []; 
-	console.log(key); 
-	console.log(date); 
 	
 	//create array of objects
 	for (var i=0;i<date.length;i++){
@@ -30,10 +27,9 @@ function parseResponse(response){
 			link: key[i].firstChild.nodeValue, 
 			timestamp: date[i].firstChild.nodeValue
 		}; 
-			console.log(obj); 
 		photoArr.push(obj); 
 	}
-	console.log(photoArr); 
+
 	//sort the array
 	photoArr.sort(function(a,b) {
 		if(a.timestamp < b.timestamp) {return -1};
@@ -58,7 +54,7 @@ function parseResponse(response){
  function viewPhotosBuilder(photoArray){
 
  	//pull params from query string 
- 	var queryString = window.location.search.substring(1); 
+ 	var queryString = decodeURIComponent(window.location.search.substring(1)); 
  	var qsparams = queryString.split("&");
  	var pairs = []; 
 
@@ -66,6 +62,7 @@ function parseResponse(response){
  		var value = qsparams[k]; 
  		var values = value.split("=");
  		pairs[values[0]] = values[1]; 
+
 	}
 
  	//create new array with just the photos for the given album 
@@ -74,11 +71,18 @@ function parseResponse(response){
 		var file = value.link; 
 		var path = file.split("/"); 
 		var photoPath = path[0]; 
-
-		if(photoPath == pairs["album"]){
+		
+		if(pairs["key"]){
+			var keyPair = (pairs["key"]); 
+			var key = keyPair.split("/"); 
+		}
+		if(photoPath == pairs["album"] || pairs["key"] && photoPath == key[0]){
 			selectedAlbum.push(photoArray[i]); 
 		}
+
 	}); 
+
+	console.log(selectedAlbum);
 
 	//Build the DOM
 	var gridLetter = ['a','b','c','d']; 
