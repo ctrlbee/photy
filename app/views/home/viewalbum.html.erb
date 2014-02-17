@@ -1,20 +1,21 @@
 <div data-role="page">
  
-        <div data-role="header">
-            <h1>My Title</h1>
+        <div data-role="header" data-position="fixed">
+            <h1 class="header-title"><%=@album%> </h1>
         </div><!-- /header -->
  
         <div data-role="content">
 
-        <%=link_to "All Albums", "/"%>
+        <div class="ui-grid-a">
+       <div class="ui-block-a"> <%=link_to "All Albums", "/", class:"ui-btn ui-btn-icon-left ui-icon-home back-btn"%></div>
+        <div class="ui-block-b"><%=link_to "Add Photo", "", class:"ui-btn ui-btn-icon-right ui-icon-action add-btn"%></div>
+        	</div>
     
-		<h2>Album: <%=@album%> </h2>
+    
 			<div class="ui-grid-c photo-grid">	
 			
 			</div>
 
-
-		<h2>Photy Upload</h2>
 		    
 		    <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
 		      <input type="hidden" name="key" value="<%=@album%>/${filename}">
@@ -25,17 +26,16 @@
 		      <input type="hidden" name="signature" value=<%=@signature%>>
 		      <input type="hidden" name="Content-Type" value="image/jpeg">
 		      <!-- Include any additional input fields here -->
-
-		      File to upload to S3: 
-		      <input name="file" type="file"> 
-		      <br> 
-		      <input type="submit" value="Upload File to S3"> 
+		      <div class="hidden">
+		      	<input name="file" type="file" class="input-file"> 
+		      	<input type="submit" value="Upload File to S3" class="submit-file"> 
+		      </div>
 		    </form> 
 
          </div><!-- /content -->
  
         <div data-role="footer">
-            <h4>My Footer</h4>
+            <h4></h4>
         </div><!-- /footer -->
  
     </div><!-- /page -->

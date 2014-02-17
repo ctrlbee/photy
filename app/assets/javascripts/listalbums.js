@@ -3,6 +3,7 @@
 function viewAlbumsBuilder(photoArray){
 	//build array of unique folders 
 	var folders = []; 
+	var html = ""; 
 	$.each(photoArray, function(i, value){
 		var file = value.link; 
 		var path = file.split("/"); 
@@ -14,23 +15,9 @@ function viewAlbumsBuilder(photoArray){
 	}); 
 
 	for(i=0;i<folders.length;i++){
-		$('.album-list').append('<a href="/viewalbum?album='+folders[i]+'" class="ui-btn albums-btn">'+folders[i]+'</a>'); 	
+		html += ('<div class="btn-div"><a href="/viewalbum?album='+folders[i]+'" class="ui-btn albums-btn"><span class="btn-text">'+folders[i]+'</span></a></div>'); 	
 	}
 
-	
-	//add click handler for albums buttons
-	$('.albums-btn').click(function(){
-		$.ajax({
-			url:'https://s3.amazonaws.com/photystorage/',
-			method: 'GET',
-			success: function(data){  
-				var photos = parseResponse(data); 
-				viewPhotosBuilder(photos); 
-			},
-			error: function(error){
-				console.log("S3 error response: "+error)
-			}
-		}); 
-	});
+	$('.album-list').html(html); 
 
 }

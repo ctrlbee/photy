@@ -1,24 +1,60 @@
-$(window).load(function(){
-	//make call to S3
+//web works fine
+//on mobile safari - uploads seem to create new folder 
+//on mobile chrome - new pics take forever 
+
+
+$(document).ready(function(){
+	//get data - would like to do this in separate funciton, but only seems to work in document ready
 	$.ajax({
 		url:'https://s3.amazonaws.com/photystorage/',
 		method: 'GET',
-		success: function(data){  
-			var photos = parseResponse(data); 
-			viewAlbumsBuilder(photos); 
-			viewPhotosBuilder(photos); 
+		success: function(s3data){  
+			var dataResponse = parseData(s3data); 
+			viewAlbumsBuilder(dataResponse); 
+			viewPhotosBuilder(dataResponse); 
 		},
 		error: function(error){
 			console.log("S3 error response: "+error)
 		}
 	}); 
+
+
+	$('.add-btn').click(function(){
+		$('.input-file').trigger('click'); 
+	}); 
+
+	$('.input-file').on('change', function(){
+		$('.submit-file').trigger('click'); 
+	}); 
+
+
  });
+
+$(window).on('hashchange', function(e){
+	console.log(window.location.pathname); 
+
+	$.ajax({
+	url:'https://s3.amazonaws.com/photystorage/',
+	method: 'GET',
+	success: function(s3data){  
+		var dataResponse = parseData(s3data); 
+		viewAlbumsBuilder(dataResponse); 
+		viewPhotosBuilder(dataResponse); 
+	},
+	error: function(error){
+		console.log("S3 error response: "+error)
+	}
+}); 
+
+}); 
+
 
 
 //parse response
-function parseResponse(response){
-	var key = $(response).find("Key"); 
-	var date = $(response).find("LastModified"); 
+function parseData(photos){
+
+	var key = $(photos).find("Key"); 
+	var date = $(photos).find("LastModified"); 
 	var photoArr = []; 
 	
 	//create array of objects
