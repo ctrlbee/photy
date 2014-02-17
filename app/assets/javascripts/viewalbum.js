@@ -4,6 +4,9 @@
 
 
 $(document).ready(function(){
+	
+	setUpHandlers();
+	
 	//get data - would like to do this in separate funciton, but only seems to work in document ready
 	$.ajax({
 		url:'https://s3.amazonaws.com/photystorage/',
@@ -18,7 +21,29 @@ $(document).ready(function(){
 		}
 	}); 
 
+ });
 
+$(window).on('hashchange', function(e){
+	//console.log(window.location.pathname); 
+	setUpHandlers(); 
+
+	$.ajax({
+		url:'https://s3.amazonaws.com/photystorage/',
+		method: 'GET',
+		success: function(s3data){  
+			var dataResponse = parseData(s3data); 
+			viewAlbumsBuilder(dataResponse); 
+			viewPhotosBuilder(dataResponse); 
+		},
+		error: function(error){
+			console.log("S3 error response: "+error)
+		}
+	}); 
+
+}); 
+
+
+function setUpHandlers(){
 	$('.add-btn').click(function(){
 		$('.input-file').trigger('click'); 
 	}); 
@@ -26,27 +51,7 @@ $(document).ready(function(){
 	$('.input-file').on('change', function(){
 		$('.submit-file').trigger('click'); 
 	}); 
-
-
- });
-
-$(window).on('hashchange', function(e){
-	console.log(window.location.pathname); 
-
-	$.ajax({
-	url:'https://s3.amazonaws.com/photystorage/',
-	method: 'GET',
-	success: function(s3data){  
-		var dataResponse = parseData(s3data); 
-		viewAlbumsBuilder(dataResponse); 
-		viewPhotosBuilder(dataResponse); 
-	},
-	error: function(error){
-		console.log("S3 error response: "+error)
-	}
-}); 
-
-}); 
+}
 
 
 
