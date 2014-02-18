@@ -11844,3 +11844,557 @@ Started GET "/" for 127.0.0.1 at 2014-02-17 16:44:43 -0800
 Processing by HomeController#home as HTML
   Rendered home/home.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 16:51:14 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 16:51:15 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 16:51:34 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 16:57:45 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 18:16:35 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 18:17:45 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:29:02 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:29:03 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:29:11 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:30:01 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:10 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:30:13 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:30:36 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:39 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:42 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:30:43 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:46 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:30:48 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:49 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=" for 127.0.0.1 at 2014-02-17 21:30:50 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>""}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:52 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=" for 127.0.0.1 at 2014-02-17 21:30:53 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>""}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:56 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:30:57 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:30:59 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:31:13 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:31:17 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:31:19 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:31:35 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:32:11 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:35:03 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:35:05 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:35:17 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:35:25 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:35:28 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:35:34 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:35:37 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=" for 127.0.0.1 at 2014-02-17 21:35:38 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>""}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:35:43 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:42:05 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:43:31 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:43:33 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:44:14 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:44:51 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:45:09 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:45:16 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:46:54 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:46:56 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:46:58 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:47:12 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:48:12 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo333" for 127.0.0.1 at 2014-02-17 21:48:47 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo333"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:48:55 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:48:59 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:49:03 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:49:12 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:50:24 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 21:58:17 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-02-17 21:58:41 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:59:00 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 21:59:22 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 21:59:33 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo16" for 127.0.0.1 at 2014-02-17 21:59:40 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo16"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-02-17 22:00:17 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 22:00:52 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-02-17 22:00:55 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:00:58 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:01:01 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:01:04 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 22:01:06 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 22:01:08 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-02-17 22:01:10 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-02-17 22:01:13 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-02-17 22:01:26 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-02-17 22:01:33 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:01:38 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 22:01:40 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:01:41 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:01:45 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 22:01:46 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:02:02 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:02:12 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-02-17 22:02:14 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 22:02:24 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-02-17 22:02:25 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 11.5ms | ActiveRecord: 0.0ms)

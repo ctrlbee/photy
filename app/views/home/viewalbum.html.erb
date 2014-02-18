@@ -6,7 +6,7 @@
  
         <div data-role="content">
 
-        <div class="loading-div"><img src="http://code.jquery.com/mobile/1.4.0/images/ajax-loader.gif" alt="loading"></div>
+
 
         <div class="ui-grid-a">
        <div class="ui-block-a"> <%=link_to "All Albums", "/", class:"ui-btn ui-btn-icon-left ui-icon-home back-btn"%></div>
@@ -20,7 +20,7 @@
 
 		    
 		    <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
-		      <input type="hidden" name="key" value="<%=@album%>/${filename}">
+		      <input type="hidden" name="key" value=<%=@album%>/${filename}>
 		      <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
 		      <input type="hidden" name="acl" value="public-read"> 
 		      <input type="hidden" name="success_action_redirect" value="http://radiant-savannah-8843.herokuapp.com/viewalbum">
