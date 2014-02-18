@@ -63,7 +63,7 @@ function setUpHandlers(){
 	$('.input-file').on('change', function(){
 		$('.submit-file').trigger('click'); 
 	}); 
-}
+}; 
 
 
 
@@ -170,10 +170,12 @@ function parseData(photos){
 
 	});
 
-	function updateHTML(dom){
-		$('.photo-grid').html(dom);
-	}
-
 };
+
+function updateHTML(dom){
+	$('.photo-grid').html(dom);
+}; 
+
+
 
 
