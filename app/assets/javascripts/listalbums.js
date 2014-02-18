@@ -15,7 +15,7 @@ function viewAlbumsBuilder(photoArray){
 	}); 
 
 	for(i=0;i<folders.length;i++){
-		html += ('<div class="btn-div"><a href="/viewalbum?album='+folders[i]+'" class="ui-btn albums-btn"><span class="btn-text">'+folders[i]+'</span></a></div>'); 	
+		html += '<div class="btn-div"><a href="/viewalbum?album='+folders[i]+'" class="ui-btn albums-btn"><span class="btn-text">'+folders[i]+'</span></a></div>'; 	
 	}
 
 	$('.album-list').html(html); 

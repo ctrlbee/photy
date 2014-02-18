@@ -1,11 +1,11 @@
-//web works fine
-//on mobile safari - uploads seem to create new folder 
-//on mobile chrome - new pics take forever 
+//bugs 
+//double append bug --FIXED
+//on mobile chrome - didn't load pics on initial app load 
+//on safari and chrome and web - new pics taken on phone don't show up on page callback
+//on safari (maybe chrome too) - choose existing creates new empty folder
 
 
 $(document).ready(function(){
-	
-	setUpHandlers();
 	
 	//get data - would like to do this in separate funciton, but only seems to work in document ready
 	$.ajax({
@@ -21,12 +21,13 @@ $(document).ready(function(){
 		}
 	}); 
 
+	setUpHandlers();
+	$('.loading-div').hide(); 
+
  });
 
 $(window).on('hashchange', function(e){
 	//console.log(window.location.pathname); 
-	setUpHandlers(); 
-
 	$.ajax({
 		url:'https://s3.amazonaws.com/photystorage/',
 		method: 'GET',
@@ -40,7 +41,18 @@ $(window).on('hashchange', function(e){
 		}
 	}); 
 
+	setUpHandlers(); 
+	$('.loading-div').hide(); 
 }); 
+
+
+
+$(document).ajaxStart(function(){
+	$('.loading-div').show(); 
+})
+.ajaxStop(function(){
+	$('.loading-div').hide(); 	
+})
 
 
 function setUpHandlers(){
@@ -103,7 +115,6 @@ function parseData(photos){
  		var value = qsparams[k]; 
  		var values = value.split("=");
  		pairs[values[0]] = values[1]; 
-
 	}
 
  	//create new array with just the photos for the given album 
@@ -128,6 +139,7 @@ function parseData(photos){
 	//Build the DOM
 	var gridLetter = ['a','b','c','d']; 
 	var j = 0; 
+	var imgDom = ""; 
 	
 	$.each(selectedAlbum, function(i, value){
 	
@@ -143,19 +155,24 @@ function parseData(photos){
 				buildDOM("");
 			}
 		}; 
-
+		
 		//build jQuery mobile DOM
 		function buildDOM(adj){
-			$('.photo-grid').append('<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap'+adj+'"><img class="img-block" src="https://s3.amazonaws.com/photystorage/'+value.link+'"></div></div>'); 	
+			imgDom += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap'+adj+'"><img class="img-block" src="https://s3.amazonaws.com/photystorage/'+value.link+'"></div></div>'; 	
 			if(j==3){
 				j=0; 
 			}
 			else{
 				j++; 
 			}
+			updateHTML(imgDom); 
 		};
 
 	});
+
+	function updateHTML(dom){
+		$('.photo-grid').html(dom);
+	}
 
 };
 

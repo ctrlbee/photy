@@ -9,5 +9,25 @@
 	font-size: 2em !important; 
 }
 
+.loading-div{
+	background-color: #666666; 
+	opacity: 0.8; 
+	position: fixed; 
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	z-index: 1000; 
+
+	img {
+		position: relative;
+		top:30%; 
+		display: block; 
+		margin-right: auto; 
+		margin-left: auto; 
+	}
+}
+
+
 
 

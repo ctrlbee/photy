@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+.header-title {
+  font-size: 3em !important; }
+
+.albums-btn {
+  font-size: 2em !important; }
+
+.loading-div {
+  background-color: #666666;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000; }
+  .loading-div img {
+    position: relative;
+    top: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+.img-block {
+  width: 100%; }
+
+.back-btn, .add-btn {
+  font-size: 2em !important; }
+
+.hidden {
+  visibility: hidden; }
