@@ -3,7 +3,7 @@
     {"bucket": "photystorage"},
     ["starts-with", "$key", ""],
     {"acl": "public-read"},
-    {"success_action_redirect": "http://radiant-savannah-8843.herokuapp.com/viewalbum"},
+    {"success_action_redirect": "http://radiant-savannah-8843.herokuapp.com"},
     ["starts-with", "$Content-Type", ""],
     ["content-length-range", 0, 10000000]
   ]

@@ -1,42 +1,45 @@
+
 <div data-role="page">
- 
-        <div data-role="header" data-position="fixed">
-            <h1 class="header-title"><%=@album%> </h1>
-        </div><!-- /header -->
- 
-        <div data-role="content">
+
+  <div data-role="header" data-position="fixed">
+    <h1 class="header-title"><%=@album%> </h1>
+  </div><!-- /header -->
+
+  <div data-role="content">
+
+    <div class="album-list">
+
+    </div>
+
+    <div class="ui-grid-a">
+     <div class="ui-block-a"> <a href="/" class="ui-btn back-btn">All Albums</a></div>
+     <div class="ui-block-b"> <a href="" class="ui-btn add-btn">Add Photo</a></div>
+   </div>
+   <div class="ui-grid-c photo-grid">	
+
+   </div>
 
 
+   <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="key" value=<%=@album%>/${filename}>
+    <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
+    <input type="hidden" name="acl" value="public-read"> 
+    <input type="hidden" name="success_action_redirect" value="http://radiant-savannah-8843.herokuapp.com/viewalbum">
+    <input type="hidden" name="policy" value=<%=@policy%>>
+    <input type="hidden" name="signature" value=<%=@signature%>>
+    <input type="hidden" name="Content-Type" value="image/jpeg">
+    <!-- Include any additional input fields here -->
+    <div class="hidden">
+     <input name="file" type="file" class="input-file"> 
+     <input type="submit" value="Upload File to S3" class="submit-file"> 
+   </div>
+ </form> 
 
-      <div class="ui-grid-a">
-	      <div class="ui-block-a"> <a href="http://radiant-savannah-8843.herokuapp.com/" class="ui-btn ui-btn-icon-left ui-icon-home back-btn">All Albums</a></div>
-	      <div class="ui-block-b"> <a href="" class="ui-btn ui-btn-icon-right ui-icon-action add-btn">Add Photo</a></div>
-	   </div>
-			<div class="ui-grid-c photo-grid">	
-			
-			</div>
+</div><!-- /content -->
 
-		    
-		    <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
-		      <input type="hidden" name="key" value=<%=@album%>/${filename}>
-		      <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
-		      <input type="hidden" name="acl" value="public-read"> 
-		      <input type="hidden" name="success_action_redirect" value="http://radiant-savannah-8843.herokuapp.com/viewalbum">
-		      <input type="hidden" name="policy" value=<%=@policy%>>
-		      <input type="hidden" name="signature" value=<%=@signature%>>
-		      <input type="hidden" name="Content-Type" value="image/jpeg">
-		      <!-- Include any additional input fields here -->
-		      <div class="hidden">
-		      	<input name="file" type="file" class="input-file"> 
-		      	<input type="submit" value="Upload File to S3" class="submit-file"> 
-		      </div>
-		    </form> 
+<div data-role="footer">
+  <h4></h4>
+</div><!-- /footer -->
 
-         </div><!-- /content -->
- 
-        <div data-role="footer">
-            <h4></h4>
-        </div><!-- /footer -->
- 
-    </div><!-- /page -->
+</div><!-- /page -->
 

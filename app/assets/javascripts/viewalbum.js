@@ -6,8 +6,14 @@
 
 
 $(document).ready(function(){
+
+	init(); 
+	setUpHandlers();
+	$('.loading-div').hide(); 
 	
-	//get data - would like to do this in separate funciton, but only seems to work in document ready
+ });
+
+function init(){
 	$.ajax({
 		url:'https://s3.amazonaws.com/photystorage/',
 		method: 'GET',
@@ -21,26 +27,11 @@ $(document).ready(function(){
 		}
 	}); 
 
-	setUpHandlers();
-	$('.loading-div').hide(); 
-
- });
+}
 
 $(window).on('hashchange', function(e){
 	//console.log(window.location.pathname); 
-	$.ajax({
-		url:'https://s3.amazonaws.com/photystorage/',
-		method: 'GET',
-		success: function(s3data){  
-			var dataResponse = parseData(s3data); 
-			viewAlbumsBuilder(dataResponse); 
-			viewPhotosBuilder(dataResponse); 
-		},
-		error: function(error){
-			console.log("S3 error response: "+error)
-		}
-	}); 
-
+	init();
 	setUpHandlers(); 
 	$('.loading-div').hide(); 
 }); 
@@ -115,6 +106,14 @@ function parseData(photos){
  		var value = qsparams[k]; 
  		var values = value.split("=");
  		pairs[values[0]] = values[1]; 
+	}
+	console.log(pairs["album"]);
+
+	if(typeof pairs["album"] === 'undefined'){
+		$('.album').hide(); 
+	}
+	else if(pairs["album"]){
+		$('.album-list').hide(); 
 	}
 
  	//create new array with just the photos for the given album 
