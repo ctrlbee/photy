@@ -12,6 +12,18 @@ $(document).ready(function(){
 		}); 
 	});
 
+	photyupload.init(); 
+
+	//click handlers for upload btn
+	$('.add-btn').click(function(){
+		$('.input-file').trigger('click'); 
+	}); 
+
+	$('.input-file').on('change', function(){
+		var fileToUpload = $('.input-file').get(0).files[0]; 
+		photyupload.upload(fileToUpload, callFunc); 	
+	}); 
+
 }); 
 
 //should turn this into a proper routhing handler
@@ -27,10 +39,25 @@ $(window).on('hashchange', function(){
 			albumBuilder(); 	
 		}); 
 	}); 
+
 }); 
+
+function callFunc(){
+
+	photy.init(function(){
+		albumListBuilder(); 
+
+		//view album 
+		env.init(function(){
+			albumBuilder(); 	
+		}); 
+	});
+		
+}
 
 
 function albumListBuilder(){
+	console.log("album list builder fired"); 
 	var albums = photy.getAlbums(); 
 	var albumshtml = ""; 
 	console.log("albums"); 
@@ -42,6 +69,7 @@ function albumListBuilder(){
 }
 
 function albumBuilder(){
+	console.log("album list builder 2 fired"); 
 	var param = env.getParams("album"); 
 	var photolist = photy.getPhotoUrls(param); 
 	console.log(photolist); 

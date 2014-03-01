@@ -10,7 +10,7 @@ var photy = {
 			complete: callback,
 			success: photy.updateList, 
 			error: function(error){
-				console.log("S3 error response: "+error)
+				console.log("S3 error response: "+error); 
 			}
 		}); 
 	}, 

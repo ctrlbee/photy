@@ -3,6 +3,10 @@ class HomeController < ApplicationController
 
   def home
 
+  end
+
+  def viewalbum
+
     require 'base64'
     require 'openssl'
     require 'digest/sha1'
@@ -16,10 +20,6 @@ class HomeController < ApplicationController
     @signature = Base64.encode64(OpenSSL::HMAC.digest(OpenSSL::Digest::Digest.new('sha1'), aws_secret_key, @policy)).gsub("\n","")
 
     @album = params[:album]
-
-  end
-
-  def viewalbum
 
 
   end

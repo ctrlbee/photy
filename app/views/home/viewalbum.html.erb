@@ -1,3 +1,4 @@
+<script type="text/javascript"> var sig = "<%=@signature%>"; var pol = "<%=@policy%>";</script>
 
 <div data-role="page">
 
@@ -20,15 +21,15 @@
     <input type="hidden" name="key" value=<%=@album%>/${filename}>
     <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
     <input type="hidden" name="acl" value="public-read"> 
-    <input type="hidden" name="success_action_redirect" value="http://radiant-savannah-8843.herokuapp.com/viewalbum">
+    <input type="hidden" name="success_action_redirect" value="http://radiant-savannah-8843.herokuapp.com">
     <input type="hidden" name="policy" value=<%=@policy%>>
     <input type="hidden" name="signature" value=<%=@signature%>>
     <input type="hidden" name="Content-Type" value="image/jpeg">
     <!-- Include any additional input fields here -->
-    <div class="hidden">
+     <div class="hidden">
      <input name="file" type="file" class="input-file"> 
      <input type="submit" value="Upload File to S3" class="submit-file"> 
-   </div>
+     </div>
  </form> 
 
 </div><!-- /content -->
