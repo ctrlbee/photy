@@ -3,9 +3,6 @@ var photyupload = {
 	//set up keys for upload
 	init: function(callback){
 		
-		if(sig){
-			console.log(sig);
-		}
 		if (callback){
 			callback(); 	
 		}
@@ -29,7 +26,15 @@ var photyupload = {
 		console.log(sig, pol, file, fd, key); 
 
 		var xhr = new XMLHttpRequest();
-   		xhr.callback = uploadCallback(); 
+   		
+   		xhr.onreadystatechange = function()
+	    {
+	        if (xhr.readyState == 4)
+	        {
+	           	console.log("upload callback fired");
+	            uploadCallback(); 
+	        }
+	    };  
    		xhr.open('POST', 'https://s3.amazonaws.com/photystorage/', true); 
    
    		xhr.send(fd);
