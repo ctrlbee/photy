@@ -3,7 +3,7 @@ var env = {
 	init: function(callback){
 
 		var qs = decodeURIComponent(window.location.search.substring(1)); 
-		var qsh = decodeURIComponent(window.location.hash.substring(1)); 
+		var qsh = decodeURIComponent(window.location.hash.substring(1)); //for chrome mobile
 
 		if (qsh){
 			qs = qsh.split("?")[1]; 

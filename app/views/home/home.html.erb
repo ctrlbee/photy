@@ -1,32 +1,23 @@
 
 <div data-role="page">
+<div class="blackout">
+</div>
 
   <div data-role="header" data-position="fixed">
-    <h1 class="header-title"><%=@album%> </h1>
+    <div class="header-add"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-plus">Add New</button> </div>
   </div><!-- /header -->
 
   <div data-role="content">
   
+  <div class="add-album">
+  </div>
+
    <div class="album-list">
 
   </div>
     
 
-   <form action="https://s3.amazonaws.com/photystorage" method="post" enctype="multipart/form-data">
-    <input type="hidden" name="key" value=<%=@album%>/${filename}>
-    <input type="hidden" name="AWSAccessKeyId" value="AKIAJSQYINU6WTAXABZQ">
-    <input type="hidden" name="acl" value="public-read"> 
-    <input type="hidden" name="success_action_redirect" value="http://radiant-savannah-8843.herokuapp.com">
-    <input type="hidden" name="policy" value=<%=@policy%>>
-    <input type="hidden" name="signature" value=<%=@signature%>>
-    <input type="hidden" name="Content-Type" value="image/jpeg">
-    <!-- Include any additional input fields here -->
-    <div class="hidden">
-     <input name="file" type="file" class="input-file"> 
-     <input type="submit" value="Upload File to S3" class="submit-file"> 
-   </div>
- </form> 
-
+  
 </div><!-- /content -->
 
 <div data-role="footer">

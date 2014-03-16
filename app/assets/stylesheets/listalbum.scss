@@ -1,8 +1,23 @@
+.blackout{
+	z-index: 4000;
+	background-color: #000000; 
+	height: 100%; 
+	width: 100%; 
+	position: fixed;
+	display: none; 
+}
+
 .header{
 
 }
 .header-title{
 	font-size: 3em !important; 
+}
+
+.header-add{
+	float: right; 
+	font-size: 1em; 
+	margin-right: 10px; 
 }
 
 .albums-btn{
@@ -27,6 +42,44 @@
 		margin-left: auto; 
 	}
 }
+
+.add-album{
+	position: relative; 
+
+}
+
+.add-album-container{
+	background-color: #999999; 
+	padding: 10px; 
+	position: fixed;
+	z-index: 5000; 
+	top: 50px;
+	left:10%;
+	width: 70%; 
+	height: 27%;
+	margin-top: 10px; 
+}
+
+.input-field{
+	margin-left: auto !important; 
+	margin-right: auto !important; 
+	display: block; 
+	height: 40px; 
+	margin-top: 20px; 
+}
+
+.add-close{
+	display: block;
+	height: 20%; 
+	text-align: right; 
+	font-size: 2em; 
+}
+
+#new-button{
+	margin-top: 15px; 
+}
+
+
 
 
 

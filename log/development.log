@@ -19863,3 +19863,2873 @@ Processing by HomeController#viewalbum as HTML
   Parameters: {"album"=>"demo1"}
   Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:39:01 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:39:58 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:41:34 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 123ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:47:50 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 268ms (Views: 266.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:49:48 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:50:09 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 16:50:14 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 16:50:17 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:50:22 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-02 16:51:08 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-02 16:51:11 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:51:17 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-02 16:51:19 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 16:51:23 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 16:51:25 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 16:51:32 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 16:51:33 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-02 16:53:54 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-02 16:54:03 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-02 16:54:05 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 16:56:01 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 16:56:04 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-02 16:56:13 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-02 16:56:15 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-02 16:56:30 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-02 16:57:35 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 16:57:39 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 17:00:00 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 17:00:06 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-02 17:00:12 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 17:00:22 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-02 17:00:24 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:02:16 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:07:29 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 210ms (Views: 209.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:07:34 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:07:37 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:08:08 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:08:44 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:09:12 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:09:18 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:09:28 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:09:48 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-02 17:10:03 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-06 19:49:37 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 882ms (Views: 851.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-06 19:49:54 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 76ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-06 19:50:09 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-06 19:54:02 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-06 19:54:25 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-06 19:54:28 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-06 19:54:32 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-06 19:54:35 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-06 19:54:38 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-06 19:54:40 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-06 19:54:48 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-06 19:55:28 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 112ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-06 22:48:26 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=test1" for 127.0.0.1 at 2014-03-07 16:09:16 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"test1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:10:51 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:10:56 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=test1" for 127.0.0.1 at 2014-03-07 16:11:00 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"test1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:11:02 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:11:04 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-07 16:12:34 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:12:40 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-07 16:12:44 -0800
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:15:56 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:21:31 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 281ms (Views: 280.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:21:35 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:21:56 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 161ms (Views: 160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 16:24:06 -0800
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-09 17:54:15 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-09 20:09:19 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 20:31:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-11 20:31:08 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 412ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-11 20:31:13 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 21:45:18 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 340ms (Views: 338.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:13:12 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 251ms (Views: 249.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:13:26 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:24:18 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:30:29 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 272ms (Views: 271.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:39:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:39:27 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:39:32 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:42:41 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 106ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:43:33 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 160ms (Views: 159.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:43:42 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:44:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:56:12 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:57:26 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 133ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:57:55 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:58:14 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 22:58:23 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:04:45 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:04:52 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:07:15 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 101ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:09:39 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 157ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:09:59 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:10:33 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:10:51 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:11:03 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:11:29 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:12:07 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:12:46 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:13:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:14:24 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo" for 127.0.0.1 at 2014-03-11 23:15:40 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=foo" for 127.0.0.1 at 2014-03-11 23:15:44 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"foo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-11 23:16:01 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-11 23:16:56 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-11 23:17:21 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:26:27 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:28:47 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 213ms (Views: 212.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:28:59 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:30:19 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:30:21 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:30:31 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:31:01 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:31:22 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:33:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:35:11 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 140ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:35:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:35:34 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:35:52 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:35:59 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:36:07 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:43:54 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 195ms (Views: 194.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:44:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:44:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:48:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:49:00 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:50:03 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:51:07 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:51:22 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:51:47 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:51:58 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:52:22 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:53:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:53:32 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:54:00 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:54:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:54:56 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:55:52 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:56:14 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:56:31 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:57:01 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:57:08 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 198ms (Views: 197.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:57:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:57:27 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:57:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:58:14 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:58:21 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:58:32 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:59:31 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-11 23:59:47 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 00:06:32 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 131ms (Views: 130.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 00:09:39 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 00:10:28 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 00:10:49 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=" for 127.0.0.1 at 2014-03-12 00:10:52 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>""}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 00:11:00 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 00:11:04 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=foobar" for 127.0.0.1 at 2014-03-12 00:11:09 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"foobar"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-12 00:11:20 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:24:44 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 697ms (Views: 675.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:24:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:25:36 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 16:25:45 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 89ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 16:25:56 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:42:14 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:42:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:43:10 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:44:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 186ms (Views: 184.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:44:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:44:47 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:44:54 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:54:55 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:55:15 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:55:22 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 16:58:25 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:04:35 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 127ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:07:32 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:07:54 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:09:30 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:10:13 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:10:41 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:10:50 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:11:11 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:11:16 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:13:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:14:03 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:14:12 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:14:27 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:14:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:15:06 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:15:38 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:15:50 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:16:33 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:16:42 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:17:50 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:17:57 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:18:11 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=foobar" for 127.0.0.1 at 2014-03-15 17:18:34 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"foobar"}
+  Rendered home/viewalbum.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 80ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:18:41 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:18:49 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:33:30 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 303ms
+
+Sprockets::FileNotFound - couldn't find file 'jquery.turbolinks'
+  (in /Users/chrisbee/Dropbox/Coding/railsapps/photy/app/assets/javascripts/application.js:15):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `each'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `each'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `map'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3535865458623415600_70225838038920'
+  actionpack (4.0.1) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__4596675953641363253__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__1168276819931325257__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70225857221480/variables" for 127.0.0.1 at 2014-03-15 17:33:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:33:33 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 23ms
+
+Sprockets::FileNotFound - couldn't find file 'jquery.turbolinks'
+  (in /Users/chrisbee/Dropbox/Coding/railsapps/photy/app/assets/javascripts/application.js:15):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `each'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `each'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `map'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3535865458623415600_70225838038920'
+  actionpack (4.0.1) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__4596675953641363253__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__1168276819931325257__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70225857532560/variables" for 127.0.0.1 at 2014-03-15 17:33:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:34:33 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 21ms
+
+Sprockets::FileNotFound - couldn't find file 'jquery.turbolinks'
+  (in /Users/chrisbee/Dropbox/Coding/railsapps/photy/app/assets/javascripts/application.js:15):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `each'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `each'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `map'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3535865458623415600_70225838038920'
+  actionpack (4.0.1) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__4596675953641363253__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__1168276819931325257__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70225857086400/variables" for 127.0.0.1 at 2014-03-15 17:34:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:42:15 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 566ms (Views: 548.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 17:42:20 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 89ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 17:42:24 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=foo" for 127.0.0.1 at 2014-03-15 17:42:36 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"foo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:42:44 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-15 17:42:48 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:42:56 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-15 17:43:12 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo3" for 127.0.0.1 at 2014-03-15 17:43:15 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo3"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:43:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:43:26 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 17:43:30 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 17:43:35 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:43:58 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:46:41 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 154ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 17:46:44 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 17:46:54 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 17:47:01 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 17:47:03 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:47:09 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:47:12 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:58:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:58:44 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:58:44 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 17:58:52 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:58:53 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 17:59:03 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 17:59:05 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 17:59:10 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 17:59:13 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:00:34 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:00:36 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:00:38 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:00:40 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:00:42 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:00:51 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:02:29 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 18:02:31 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:02:37 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:02:40 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:03:15 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:03:17 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:03:19 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:03:21 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:03:23 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:03:29 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:03:31 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=foo" for 127.0.0.1 at 2014-03-15 18:03:38 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"foo"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:03:44 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:03:47 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:55:24 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 501ms
+
+Sprockets::FileNotFound - couldn't find file 'self'
+  (in /Users/chrisbee/Dropbox/Coding/railsapps/photy/app/assets/javascripts/application.js:13):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `each'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `each'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `map'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1719970001888324756_70345558522440'
+  actionpack (4.0.1) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__4193495132130755910__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__71885638369305940__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70345551434440/variables" for 127.0.0.1 at 2014-03-15 18:55:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:55:36 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:56:03 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:59:18 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 125ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:59:47 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 18:59:49 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:59:53 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 18:59:54 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:00 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:01 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:27 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:00:29 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:00:33 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:35 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:37 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 19:00:38 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 19:00:40 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:46 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:01 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:01:03 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:01:06 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:08 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:09 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 19:01:11 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo2" for 127.0.0.1 at 2014-03-15 19:01:12 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo2"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:16 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:29 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:01:31 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:01:33 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:35 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:36 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:01:38 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:04:32 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:04:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:04:45 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:04:56 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:04:58 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:05:03 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:05:10 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:05:12 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:05:14 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:05:22 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:05:24 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:05:26 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:05:30 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:05:40 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 112ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:05:43 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:05:46 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:05:50 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:05:52 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:07:02 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:07:04 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:07:08 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:07:09 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:07:12 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:07:17 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:07:21 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:07:22 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:07:24 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:07:34 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:07:57 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:08:07 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:08:09 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:08:10 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:08:13 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:08:23 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 97ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:08:25 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo1" for 127.0.0.1 at 2014-03-15 19:08:32 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo1"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:08:34 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:08:35 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:12:06 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:12:08 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:11 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:32 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 114ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:36 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:13:52 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 133ms
+
+Sprockets::FileNotFound - couldn't find file 'jquery.turbolinks'
+  (in /Users/chrisbee/Dropbox/Coding/railsapps/photy/app/assets/javascripts/application.js:16):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `each'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `each'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `map'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__897013630921830252_70321129016080'
+  actionpack (4.0.1) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__4131010762477848422__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__556579053694291944__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/chrisbee/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70321123154780/variables" for 127.0.0.1 at 2014-03-15 19:13:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:14:23 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:14:26 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:14:27 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:14:42 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:14:45 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:14:47 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo6" for 127.0.0.1 at 2014-03-15 19:19:16 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo6"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:19:37 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:19:39 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:19:42 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/viewalbum?album=demo5" for 127.0.0.1 at 2014-03-15 19:19:43 -0700
+Processing by HomeController#viewalbum as HTML
+  Parameters: {"album"=>"demo5"}
+  Rendered home/viewalbum.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.0ms)
