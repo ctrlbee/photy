@@ -12,7 +12,7 @@ var photyupload = {
 	upload: function(file, uploadCallback){
 
 		var fd = new FormData(); 
-		var key = env.getParams('album') + '/' + (new Date).getTime() + '-' + file.name; 		
+		var key = param + '/' + (new Date).getTime() + '-' + file.name; 		
 
 		fd.append('key', key);
 		fd.append('AWSAccessKeyId', 'AKIAJSQYINU6WTAXABZQ'); 

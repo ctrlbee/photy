@@ -1,17 +1,14 @@
-
+var param; 
 var viewSetup; 
 viewSetup = function(){
 
 	console.log("doc ready fired"); 
 	
+	$('.album-wrapper').hide(); 
+	
 	//call init, pass in call back func that creates JQM DOM 
 	photy.init(function(){
-		albumListBuilder(); 
-
-		//view album 
-		env.init(function(){
-			albumBuilder(); 	
-		}); 
+		albumListBuilder();
 	});
 
 	photyupload.init(); 
@@ -30,28 +27,37 @@ viewSetup = function(){
 	$('.header-add').click(function(){
 		addAlbumHandler(); 
 	}); 
+
+	$('.back-btn').click(function(){
+		albumListBuilder(); 
+		$('.album-list-wrapper').show(); 
+		$('.album-wrapper').hide(); 
+	}); 
 }
 
 function callbackFunc(){
-
 	photy.init(function(){
-		albumListBuilder(); 
-
-		//view album 
-		env.init(function(){
-			albumBuilder(); 	
-		}); 
-	});
-		
+		albumBuilder(); 	
+	}); 
 }
+
+function showAlbum(albumID){
+	param = albumID; 
+	console.log(param); 
+	albumBuilder();  
+	$('.album-list-wrapper').hide(); 
+	$('.album-wrapper').show(); 
+}
+
 
 function albumListBuilder(){
 	console.log("album list builder fired"); 
 	try {
+		var album = ""; 
 		var albums = photy.getAlbums(); 
 		var albumshtml = "";  
 		for(i=0;i<albums.length;i++){
-			albumshtml += '<div class="btn-div"><a href="/viewalbum?album='+albums[i]+'" class="ui-btn albums-btn"><span class="btn-text">'+albums[i]+'</span></a></div>'; 	
+			albumshtml += '<div class="btn-div"><button onclick=showAlbum("'+albums[i]+'") class="ui-btn albums-btn"><span class="btn-text">'+albums[i]+'</span></button></div>'; 	
 		}
 		
 		$('.album-list').html(albumshtml); 
@@ -64,7 +70,6 @@ function albumListBuilder(){
 function albumBuilder(){
 	console.log("album builder fired"); 
 	try{
-		var param = env.getParams("album"); 
 		var photolist = photy.getPhotoUrls(param); 
 		console.log(photolist); 
 		var photoshtml = ""; 
@@ -90,6 +95,5 @@ function albumBuilder(){
 }
 
 $(document).ready(viewSetup); 
-//$(document).on('ready page:load', viewSetup);
 
 

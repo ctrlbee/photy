@@ -8,7 +8,12 @@ function addAlbumHandler(){
 
 	$('#new-button').click(function(){
 		var albumName = $('input[name=album-name]').val(); 
-		window.location = '/viewalbum?album='+albumName; 
+		param = albumName; 
+		console.log(param); 
+		$('.add-album-container').hide(); 
+		$('.blackout').hide();
+		$('.album-list-wrapper').hide(); 
+		$('.album-wrapper').show(); 
 	}); 
 
 };
