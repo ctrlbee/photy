@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.ui-header{
+	height: 93px; 
+}
 
 .img-block {
 	width: 100%; 
@@ -11,8 +14,18 @@
 
 }
 
+.header-title{
+	font-size: 3em !important; 
+	text-align: center; 
+	padding-top: 15px; 
+}
+
 .back-btn, .add-btn{
-	font-size: 2em !important; 
+	font-size: 2em !important; 	
+}
+
+.view-btn{
+	margin-bottom: 20px !important; 
 }
 
 .hidden{

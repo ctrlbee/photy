@@ -5,6 +5,7 @@ viewSetup = function(){
 	console.log("doc ready fired"); 
 	
 	$('.album-wrapper').hide(); 
+	$('.header-title').hide(); 
 	
 	//call init, pass in call back func that creates JQM DOM 
 	photy.init(function(){
@@ -32,6 +33,9 @@ viewSetup = function(){
 		albumListBuilder(); 
 		$('.album-list-wrapper').show(); 
 		$('.album-wrapper').hide(); 
+		$('.header-add').show(); 
+		$('.header-btn').show(); 
+		$('.header-title').hide(); 
 	}); 
 }
 
@@ -45,8 +49,11 @@ function showAlbum(albumID){
 	param = albumID; 
 	console.log(param); 
 	albumBuilder();  
+	$('.header-title').html(param); 
 	$('.album-list-wrapper').hide(); 
 	$('.album-wrapper').show(); 
+	$('.header-add').hide(); 
+	$('.header-title').show(); 
 }
 
 
