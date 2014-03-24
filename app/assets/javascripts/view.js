@@ -1,11 +1,13 @@
+
 var param; 
-var viewSetup; 
-viewSetup = function(){
+
+var viewSetup = function(){
 
 	console.log("doc ready fired"); 
 	
 	$('.album-wrapper').hide(); 
 	$('.header-title').hide(); 
+	$('.loading-div').hide(); 
 	
 	//call init, pass in call back func that creates JQM DOM 
 	photy.init(function(){
@@ -20,8 +22,11 @@ viewSetup = function(){
 	}); 
 
 	$('.input-file').on('change', function(){
+		$('.loading-div').show(); 
 		var fileToUpload = $('.input-file').get(0).files[0]; 
-		photyupload.upload(fileToUpload, callbackFunc); 	
+		if(fileToUpload){
+			photyupload.upload(fileToUpload, callbackFunc); 		
+		}
 	}); 
 
 	//click handler for add album button
@@ -77,6 +82,7 @@ function albumListBuilder(){
 
 function albumBuilder(){
 	console.log("album builder fired"); 
+	$('.loading-div').show(); 
 	try{
 		var photolist = photy.getPhotoUrls(param); 
 		console.log("photo list "+ photolist); 
@@ -95,13 +101,17 @@ function albumBuilder(){
 		}	
 	 	
 	 	$('.photo-grid').html(photoshtml); 
+
+	 	$( ".img-block" ).load(function() {
+	 		$('.loading-div').hide(); 
+	 	});
 	 }
 	 catch(e){
 	 	$('.photo-grid').html("network error"); 
 	 }
-
 }
 
 $(document).ready(viewSetup); 
+
 
 

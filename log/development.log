@@ -25662,3 +25662,189 @@ Started GET "/" for 127.0.0.1 at 2014-03-23 21:53:09 -0700
 Processing by HomeController#home as HTML
   Rendered home/home.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 139ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:38:57 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 354ms (Views: 298.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:40:07 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:40:28 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 139ms (Views: 135.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:40:35 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 69ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:45:49 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:47:11 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:47:25 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:47:39 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 406ms (Views: 401.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:47:46 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 70ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:49:40 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:55:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 108ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:55:52 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:56:28 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:56:38 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:56:44 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:56:48 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:57:23 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 212ms (Views: 209.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:57:54 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-23 23:58:28 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 98ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:02:49 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 100ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:07:50 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 106ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:08:05 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:10:26 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:11:12 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:14:33 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:15:49 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:16:46 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:16:58 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:18:00 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 82ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:19:30 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-24 00:20:20 -0700
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
