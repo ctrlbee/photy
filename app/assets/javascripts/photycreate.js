@@ -12,7 +12,7 @@ function addAlbumHandler(){
 		var albumName = $('input[name=album-name]').val(); 
 		param = albumName; 
 		console.log(param); 
-		$('.photo-grid').html("Add some photos to this album babe."); 
+		$('.photo-grid').html("Add photos to create this album."); 
 		$('.add-album-container').hide(); 
 		$('.blackout').hide();
 		$('.album-list-wrapper').hide(); 

@@ -49,7 +49,7 @@ function showAlbum(albumID){
 	param = albumID; 
 	console.log(param); 
 	albumBuilder();  
-	$('.header-title').html(param); 
+	$('.header-title').html(decodeURIComponent(param)); 
 	$('.album-list-wrapper').hide(); 
 	$('.album-wrapper').show(); 
 	$('.header-add').hide(); 
@@ -64,7 +64,8 @@ function albumListBuilder(){
 		var albums = photy.getAlbums(); 
 		var albumshtml = "";  
 		for(i=0;i<albums.length;i++){
-			albumshtml += '<div class="btn-div"><button onclick=showAlbum("'+albums[i]+'") class="ui-btn albums-btn"><span class="btn-text">'+albums[i]+'</span></button></div>'; 	
+			var albumName = "'"+decodeURIComponent(albums[i])+"'";
+			albumshtml += '<div class="btn-div"><button onclick="showAlbum('+albumName+')" class="ui-btn albums-btn"><span class="btn-text">'+decodeURIComponent(albums[i])+'</span></button></div>'; 	
 		}
 		
 		$('.album-list').html(albumshtml); 
@@ -78,7 +79,7 @@ function albumBuilder(){
 	console.log("album builder fired"); 
 	try{
 		var photolist = photy.getPhotoUrls(param); 
-		console.log(photolist); 
+		console.log("photo list "+ photolist); 
 		var photoshtml = ""; 
 		var gridLetter = ['a','b','c','d']; 
 		var j = 0; 
