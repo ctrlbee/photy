@@ -92,10 +92,10 @@ function albumBuilder(){
 
 		for(x=0;x<photolist.length;x++){
 			if(x === photolist.length-1){
-				photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><img class="img-block img-last" src="'+photolist[x]+'"></div></div>'; 	
+				photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><a href="'+photolist[x]+'" data-lightbox="photy"> <img class="img-block img-last" src="'+photolist[x]+'"> </a></div></div>'; 	
 			}
 			else{
-				photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><img class="img-block" src="'+photolist[x]+'"></div></div>'; 	
+				photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><a href="'+photolist[x]+'" data-lightbox="photy"><img class="img-block" src="'+photolist[x]+'"> </a></div></div>'; 	
 			}		
 
 			if(j==3){
