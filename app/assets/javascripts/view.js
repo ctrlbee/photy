@@ -91,20 +91,25 @@ function albumBuilder(){
 		var j = 0; 
 
 		for(x=0;x<photolist.length;x++){
-			photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><img class="img-block" src="'+photolist[x]+'"></div></div>'; 	
+			if(x === photolist.length-1){
+				photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><img class="img-block img-last" src="'+photolist[x]+'"></div></div>'; 	
+			}
+			else{
+				photoshtml += '<div class="ui-block-'+gridLetter[j]+'"><div class="img-wrap"><img class="img-block" src="'+photolist[x]+'"></div></div>'; 	
+			}		
+
 			if(j==3){
 				j=0; 
 			}
 			else{
 				j++; 
 			}
-		}	
-	 	
+		}
 	 	$('.photo-grid').html(photoshtml); 
-
-	 	$( ".img-block" ).load(function() {
-	 		$('.loading-div').hide(); 
-	 	});
+	 	$('.img-last').load(function(){
+			console.log("load fired"); 
+			$('.loading-div').hide(); 
+		}); 
 	 }
 	 catch(e){
 	 	$('.photo-grid').html("network error"); 
