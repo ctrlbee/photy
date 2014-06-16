@@ -1,10 +1,12 @@
-
 var param; 
+var storedPw; 
+var userPw; 
+var pwobj; 
 
 var viewSetup = function(){
 
 	console.log("doc ready fired"); 
-	
+
 	$('.album-wrapper').hide(); 
 	$('.header-title').hide(); 
 	$('.loading-div').hide(); 
@@ -50,17 +52,6 @@ function callbackFunc(){
 	}); 
 }
 
-function showAlbum(albumID){
-	param = albumID; 
-	console.log(param); 
-	albumBuilder();  
-	$('.header-title').html(decodeURIComponent(param)); 
-	$('.album-list-wrapper').hide(); 
-	$('.album-wrapper').show(); 
-	$('.header-add').hide(); 
-	$('.header-title').show(); 
-}
-
 
 function albumListBuilder(){
 	console.log("album list builder fired"); 
@@ -80,9 +71,34 @@ function albumListBuilder(){
 	}
 }
 
-function albumBuilder(){
+function showAlbum(albumID){
+	param = albumID; 
+	albumBuilder(true);  
+}
+
+
+function albumBuilder(bool){
 	
-	window.prompt("enter password",""); 
+	if(bool === true){
+		userPw = window.prompt("Enter The Password",""); 
+		
+		photy.getPassword(param, function(){
+			pwobj = $.parseJSON(storedPw); 
+			console.log("viewPw:"+ pwobj.pw); 
+			if(userPw===pwobj.pw){
+				albumDOMBuilder(pwobj.pw); 	
+			}
+			else{
+				return; 
+			}
+		}); 
+	}
+	else {
+		albumDOMBuilder(); 
+	}
+}
+
+function albumDOMBuilder(){
 
 	$('.loading-div').show(); 
 	try{
@@ -116,7 +132,14 @@ function albumBuilder(){
 	 catch(e){
 	 	$('.photo-grid').html("network error"); 
 	 }
-}
+
+	$('.header-title').html(decodeURIComponent(param)); 
+	$('.album-list-wrapper').hide(); 
+	$('.album-wrapper').show(); 
+	$('.header-add').hide(); 
+	$('.header-title').show(); 
+
+}; 
 
 $(document).ready(viewSetup); 
 

@@ -1,5 +1,5 @@
 function addAlbumHandler(){
-	$('.add-album').html('<div class="add-album-container"> <div class="add-close">X</div> <input type="text" name="album-name" class="input-field" placeholder="Album Name"> <input type="button" class="input-field ui-btn" id="new-button" value="Create New Album"> </div> '); 
+	$('.add-album').html('<div class="add-album-container"> <div class="add-close">X</div> <input type="text" name="album-name" class="input-field" placeholder="Album Name"> <input type="text" name="pw-name" class="input-field" placeholder="Enter Password"> <input type="button" class="input-field ui-btn" id="create-button" value="Create New Album"> </div> '); 
 	$('.add-close').click(function(){
 		$('.add-album-container').hide(); 
 		$('.blackout').hide(); 
@@ -8,9 +8,11 @@ function addAlbumHandler(){
 	$('.header-btn').hide(); 
 	$('.header').css('background','#000000').css('border-color', '#000000'); 
 
-	$('#new-button').click(function(){
+	$('#create-button').click(function(){
 		var albumName = $('input[name=album-name]').val(); 
+		var pwName = $('input[name=pw-name]').val(); 
 		param = albumName; 
+		password.createPassword(pwName); 
 		console.log(param); 
 		$('.photo-grid').html("Add photos to create this album."); 
 		$('.add-album-container').hide(); 
@@ -29,4 +31,22 @@ function addAlbumHandler(){
 	})
 
 };
+
+var password = {
+
+	createPassword: function (pw){
+
+		var guid = (Math.round(Math.random()*1000000)) + (Math.round(Math.random()*1000000)); 
+
+		$.ajax({
+			url: 'https://s3.amazonaws.com/photystoragepw/'+param+'.json', 
+			method: 'PUT',
+			dataType: 'json',
+			async:'false',
+			data: JSON.stringify({'pw': pw})
+		}); 
+	}
+}; 
+
+
 
