@@ -2,7 +2,6 @@
 var param; 
 
 var viewSetup = function(){
-	alert("foo"); 
 
 	console.log("doc ready fired"); 
 	
@@ -82,11 +81,8 @@ function albumListBuilder(){
 }
 
 function albumBuilder(){
-	console.log("album builder fired"); 
-	console.log("album builder fired 2"); 
 	
 	window.prompt("enter password",""); 
-	alert("foo"); 
 
 	$('.loading-div').show(); 
 	try{
