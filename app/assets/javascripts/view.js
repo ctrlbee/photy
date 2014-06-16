@@ -2,6 +2,7 @@
 var param; 
 
 var viewSetup = function(){
+	alert("foo"); 
 
 	console.log("doc ready fired"); 
 	
