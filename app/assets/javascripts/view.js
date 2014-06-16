@@ -82,6 +82,7 @@ function albumListBuilder(){
 
 function albumBuilder(){
 	console.log("album builder fired"); 
+	console.log("album builder fired 2"); 
 	
 	window.prompt("enter password",""); 
 	alert("foo"); 
