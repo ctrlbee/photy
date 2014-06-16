@@ -82,6 +82,9 @@ function albumListBuilder(){
 
 function albumBuilder(){
 	console.log("album builder fired"); 
+	
+	window.prompt("enter password",""); 
+
 	$('.loading-div').show(); 
 	try{
 		var photolist = photy.getPhotoUrls(param); 
