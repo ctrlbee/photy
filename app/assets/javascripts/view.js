@@ -84,6 +84,7 @@ function albumBuilder(){
 	console.log("album builder fired"); 
 	
 	window.prompt("enter password",""); 
+	alert("foo"); 
 
 	$('.loading-div').show(); 
 	try{
