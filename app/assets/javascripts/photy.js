@@ -99,7 +99,6 @@ var photy = {
 	},
 
 	getPassword: function(globalparam, callback){
-		console.log("globalparam:" + globalparam);
 		$.ajax({
 			url: 'https://s3.amazonaws.com/photystoragepw/'+globalparam+'.json', 
 			method: 'GET',

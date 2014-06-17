@@ -84,8 +84,8 @@ function albumBuilder(bool){
 		
 		photy.getPassword(param, function(){
 			pwobj = $.parseJSON(storedPw); 
-			console.log("viewPw:"+ pwobj.pw); 
-			if(userPw===pwobj.pw){
+			var pw = window.atob(pwobj.pw); 
+			if(userPw===pw){
 				albumDOMBuilder(pwobj.pw); 	
 			}
 			else{
